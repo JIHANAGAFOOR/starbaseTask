@@ -1,0 +1,8 @@
+[
+  { "month": "Jan", "registrations": 30 },
+  { "month": "Feb", "registrations": 45 },
+  { "month": "Mar", "registrations": 60 },
+  { "month": "Apr", "registrations": 40 },
+  { "month": "May", "registrations": 80 },
+  { "month": "Jun", "registrations": 70 }
+]

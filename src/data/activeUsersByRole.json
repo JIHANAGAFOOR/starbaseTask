@@ -1,0 +1,5 @@
+[
+  { "role": "Admin", "count": 5 },
+  { "role": "Editor", "count": 12 },
+  { "role": "Viewer", "count": 25 }
+]
