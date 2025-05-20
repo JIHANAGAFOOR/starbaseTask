@@ -62,7 +62,7 @@ STARBASE_INNOVATIONS/
 
 ## 🛠️ Technology Stack
 
-- **Frontend**: React 18+, TypeScript
+- **Frontend**: React 19+, TypeScript
 - **State Management**: Redux Toolkit with Redux Persist
 - **Routing**: React Router DOM v6+
 - **Data Visualization**: Recharts
@@ -76,7 +76,7 @@ STARBASE_INNOVATIONS/
 
 1. Clone the repository
    ```bash
-   git clone https://github.com/your-username/starbase-innovations.git
+   git clone https://github.com/JIHANAGAFOOR/starbaseTask.git
    cd starbase-innovations
    ```
 
@@ -106,65 +106,3 @@ STARBASE_INNOVATIONS/
 
 3. Access the application at http://localhost:3000
 
-## 📋 Pages
-
-### 1. Login Page `/login`
-- Authentication form with username and password
-- Simulated API login with token storage in localStorage
-- Redirects to dashboard on successful login
-
-### 2. Dashboard Page `/dashboard`
-- Statistics cards showing key metrics
-- Line chart showing user registrations over time
-- Bar chart showing active users by role
-
-### 3. Users Page `/users`
-- User management interface
-- Displays data from [JSONPlaceholder API](https://jsonplaceholder.typicode.com/users)
-- Allows adding new users, searching, and sorting
-
-### 4. Settings Page `/settings`
-- User profile management
-- Dark mode toggle with localStorage persistence
-
-## 🔒 Authentication Flow
-
-1. User enters credentials on the login page
-2. On successful login, a token is stored in localStorage
-3. Protected routes check for this token
-4. Unauthorized users are redirected to login
-5. Logout clears the token and redirects to login
-
-## 🔄 State Management
-
-- **Redux** for centralized state management
-- **Redux Persist** for persisting state in localStorage
-- State slices for:
-  - Authentication
-  - User data
-  - UI preferences
-  - Form states
-
-## 📱 Responsive Design
-
-- Mobile-first approach
-- Adaptive layouts for all screen sizes
-- Responsive data visualization components
-
-## 🐳 Docker Configuration
-
-The application is containerized using Docker for easy deployment:
-- Multi-stage build for optimized image size
-- Nginx for serving the built application
-- Configured for production use
-
-## 🧪 Testing
-
-Run tests using:
-```bash
-npm test
-```
-
-## 📄 License
-
-MIT License
